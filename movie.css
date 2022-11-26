@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main div{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+div img{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+div h2{
+
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
